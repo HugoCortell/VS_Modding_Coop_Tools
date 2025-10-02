@@ -477,7 +477,7 @@ class RecipeBuilderApp(tk.Tk):
         sym_entry.bind("<FocusOut>", lambda e: self._apply_symbol_live())
 
         # Slot name
-        ttk.Label(self.side, text='Slot name (e.g., "metal"):').grid(row=7, column=0, sticky="w", pady=(6, 0))
+        ttk.Label(self.side, text='Key (Name):').grid(row=7, column=0, sticky="w", pady=(6, 0))
         self.slot_name_var = tk.StringVar(value="")
         slotname_entry = ttk.Entry(self.side, textvariable=self.slot_name_var, width=16)
         slotname_entry.grid(row=7, column=1, sticky="w", pady=(6,0))
