@@ -6,3 +6,6 @@ To be improved and maintained by human contributors who are actually competent a
 
 Shitty tools are better than no tools.<br>
 — John Tool, inventor of the Bop-It™
+
+## How to use
+Either download the script you want and run it yourself, or go to the [releases tab](https://github.com/HugoCortell/VS_Modding_Coop_Tools/releases) and download an executable version of the script.
